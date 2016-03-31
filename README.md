@@ -1,4 +1,5 @@
 JH Labs Java Image Filters
+==========================
 
 Project originally available from: http://www.jhlabs.com/ip/filters/
 Original project author: Jerry Huxtable
