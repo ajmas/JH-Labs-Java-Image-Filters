@@ -1,17 +1,20 @@
 JH Labs Java Image Filters
 ==========================
 
-Project originally available from: http://www.jhlabs.com/ip/filters/
+Project originally available from: http://www.jhlabs.com/ip/filters/  
 Original project author: Jerry Huxtable
 
-Note: This project is also exists under the name 'Pixels' from
-http://java.net/projects/pixels and the source is available at
-https://svn.java.net/svn/pixels~svn/
+Beyond the 'building' section, the text below is the description as found on Jerry
+Huxtable's website.
 
-Text below is the description as found on Jerry Huxtable's website:
+## Building
 
-Java Image Filters
-------------------
+You'll need both a Java JDK and [Apache Ant](https://ant.apache.org/) installed. 
+
+Then to build, simply run `ant` in the current folder. The resultant
+jar file will be in the `dist` folder.
+
+## Java Image Filters
 
 I have a large number of Java Image filters which are freely available for download
 from this site.  The filters are all standard Java BufferedImageOps and can be
@@ -29,8 +32,7 @@ Another use for the filters is in animation. For example animating the Water Rip
 filter can produce a nice rippling effect. Some of the filters have a time
 parameter for this purpose.
 
-Philosophy and General Points
------------------------------
+## Philosophy and General Points
 
 None of these filters are finely-tuned for speed, or even coarsely-tuned. Think of
 them as sample code for writing your own filters. I've preferred floating-point
